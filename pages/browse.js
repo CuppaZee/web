@@ -54,7 +54,7 @@ export default function Home() {
               <a
                 href={available[1]}
                 target="_blank"
-                className="invisible md:visible bg-[#ffd95c] rounded-md py-2 px-4">
+                className="invisible md:visible bg-[#ffd95c] text-black rounded-md py-2 px-4">
                 Get for {available[0]}
               </a>
             )}
@@ -83,7 +83,7 @@ export default function Home() {
                 <a
                   href={available[1]}
                   target="_blank"
-                  className="bg-[#ffd95c] rounded-md text-lg mt-4 py-2 px-4 flex flex-row items-center gap-4">
+                  className="bg-[#ffd95c] text-black rounded-md text-lg mt-4 py-2 px-4 flex flex-row items-center gap-4">
                   <Icon size={1.5} path={available[2]} /> Download for {available[0]}
                 </a>
                 <p className="text-center text-lg lg:text-xl xl:text-2xl font-display py-2">
